@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+}
+body{
+    background-color: rgb(240, 235, 248);
+}
+
+.card{
+    width: 640px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 20px 25px;
+}
+.submit{
+    width: 640px;
+    margin: 0 auto;
+    padding: 20px 25px;
+}
+.exam-name{
+    font-size: 22pt;
+    color: rgb(32,33,36);
+}
+.question{
+    width: 80%;
+    color: rgb(32,33,36);
+    margin-bottom: 20px;
+    font-size: 11pt;
+}
+.question_title{
+}
+.question-title:after{
+    display: block;
+    content: '';
+}
+.q-heading{
+    font-size: 18px;
+    width: 80%;
+}
+.point{
+    width: 20%;
+    float: right;
+    text-align: right;
+    display: inline-block;
+}
+.mark{
+    float: right;
+    width: 20%;
+}
+.question-body{
+    margin: 15px 0;
+    width: 80%;
+}
+.answer{
+    padding-top: 20px;
+}
+input[type=text]{
+    width: 50%;
+    border: none;
+    border-bottom: 1.5px solid #555;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    font-size: 12pt;
+}
+input[type=text]:focus {
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+span{
+    color: red;
+    font-size: 18px;
+}
+.submit-button{
+    width: 100px;
+    padding: 10px 0;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.d-block{
+    display: inline-block;
+}
+.f-right{
+    float: right;
+}
+.f-left{
+    float: left;
+}
+.main{
+    margin-bottom: 100px;
+}
+.d-inlineBlock{
+    display: inline-block;
+}
